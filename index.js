@@ -91,35 +91,33 @@ let myString = "this is a test";
 
 // 7.3 Find a way to get the length of myString.
 // 7.4 Console.log the length of myString.
-console.log(`The length of myString is: ${myString.length}`)
+console.log(myString.length); // The answer of console is '14'.
 
 // 8. Write a program that checks the types of two variables and prints out SAME TYPE if they are the same type.
-
-
 // 8.1 First declare at least four variables and assign them different data types.
 // 8.2 For each variable write a console.log statement that logs the value
-let friend1 = "John";
-let friend2 = "Spiro";
-let num1 = 5;
-let lie = false;
+let friend1 = "Hasan";
+let friend2 = "Ercan";
+let num1 = 3;
+let foo = false;
 
-console.log(`The value of friend1 is: ${friend1}`)
-console.log(`The value of friend2 is: ${friend2}`)
-console.log(`The value of num1 is: ${num1}`)
-console.log(`The value of lie is: ${lie}`)
+console.log(friend1); // The answer of console is 'Hasan'.
+console.log(friend2); // 'Ercan'.
+console.log(num1); // '3'.
+console.log(foo); // 'false'.
 
 
 // 8.3 Now write a console.log statement wherein you first explain in words what you think the type of your variables is.
 console.log("Type of friend1 is string");
 console.log("Type of friend2 is string");
 console.log("Type of num1 is number");
-console.log("Type of lie is boolean");
+console.log("Type of foo is boolean");
 
 // 8.4 Now use typeof to log the actual type of your variables.
 console.log(`The type of friend1 is: ${typeof friend1} `)
 console.log(`The type of friend2 is: ${typeof friend2} `)
 console.log(`The type of num1 is: ${typeof num1} `)
-console.log(`The type of lie is: ${typeof lie} `)
+console.log(`The type of lie is: ${typeof foo} `)
 // 8.5 Now compare the types of your different variables with one another.
 // 8.6 Make sure to also show a message when the variables you are comparing are not the same type.
  
@@ -127,11 +125,11 @@ if (typeof friend1 === typeof friend2) {
   console.log("SAME TYPE");
 }
 
-if (typeof friend1 === typeof lie) {
+if (typeof friend1 === typeof foo) {
   console.log("SAME TYPE");
 } else {
   console.log("DIFFERENT TYPE")
-}
+} // The answer of console is 'DIFFERENT TYPE'.
 
 // 9. If x equals 7, and the only other statement is x = x % 3, what would be the new value of x?
 // 9.1 Add at least 3 console.log statements in which you show that you understand what % does.
@@ -147,6 +145,3 @@ let array1 = ["Yes we can", true, 3];
 if (6/0 === 10/0) {
   console.log("Yes we can.");
 }
-// 10.3 Add console.log statements to the above program's in which you show that you understand the concepts (just like you've done in the above assignments).
-
-// I did..
