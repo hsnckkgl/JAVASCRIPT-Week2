@@ -1,1 +1,1 @@
-# javascript_week2
+# JavaScript Exercises Week2
